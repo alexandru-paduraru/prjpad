@@ -1,0 +1,8 @@
+<%= provide(:title, 'Home') %>
+
+<div class = "center">
+	<h1> WELCOME </h1>
+	<p>
+	 This is a cool app.
+	</p>
+</div>
