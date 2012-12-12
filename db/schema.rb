@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121203151407) do
+ActiveRecord::Schema.define(:version => 20121212163443) do
 
   create_table "cvs", :force => true do |t|
     t.text     "about"
@@ -26,8 +26,9 @@ ActiveRecord::Schema.define(:version => 20121203151407) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.string   "password_digest"
   end
 
 end

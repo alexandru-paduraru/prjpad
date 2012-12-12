@@ -5,4 +5,5 @@
 	<p>
 	 This is a cool app.
 	</p>
+ <%= link_to "Sign up", '#', class:"btn btn-large btn-primary" %>
 </div>
